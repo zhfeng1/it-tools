@@ -18,7 +18,7 @@ function formatYaml({
   const formattedYAML = yaml.stringify(parsedYaml, {
     sortMapEntries: get(sortKeys),
     indent: get(indentSize),
-    collectionStyle: 'flow'
+    collectionStyle: 'flow',
   });
 
   return formattedYAML;
